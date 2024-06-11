@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>Shoppy</h1>
+        <div class="navbar-links">
+            <p class="navbar-items"><a href="home.html">Home</a></p>
+            <p class="navbar-items"><a href="collection.html">Collections</a></p>
+            <p class="navbar-items"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!-- side navbar -->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closeNavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-items"><a href="home.html">Home</a></p>
+            <p class="side-navbar-items"><a href="collection.html">Collections</a></p>
+            <p class="side-navbar-items"><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+    <!-- Contact Us -->
+    <div class="contact">
+
+        <div class="contact-us">
+            <h2>Contact Us</h2>
+
+        <div class="contact-input">
+            <div>
+                <p>Name</p>
+                <input type="text">
+            </div>
+            <div>
+                <p>Email</p>
+                <input type="email">
+            </div>
+            <div>
+                <p>Message</p>
+                <textarea type="text" placeholder="type here" style="height: 40px;"></textarea>
+            </div>
+            <div style="padding-left: 60px;">
+                <button style="background-color: pink; color: #1D232c; border-radius: 5px;">Submit</button>
+            </div>
+        </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Shoppy</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit facere eius saepe molestiae a ipsum.</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+
+                </div>
+            </div>
+        </div>
+        <p>@ 2024 Shoppy.com</p>
+    </div>
+    <script src="home.js"></script>
+    <script src="collection.js"></script>
+</body>
+
+</html>
